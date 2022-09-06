@@ -1,31 +1,101 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32210.238
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第二课", "第二课\第二课.vcxproj", "{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Debug|x64.ActiveCfg = Debug|x64
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Debug|x64.Build.0 = Debug|x64
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Debug|x86.ActiveCfg = Debug|Win32
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Debug|x86.Build.0 = Debug|Win32
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Release|x64.ActiveCfg = Release|x64
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Release|x64.Build.0 = Release|x64
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Release|x86.ActiveCfg = Release|Win32
-		{0C1712AF-0B82-444F-95AF-4A60E3F91FEE}.Release|x86.Build.0 = Release|Win32
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2D6ECC45-26FD-4329-A52C-CDE5E6CAD446}
-	EndGlobalSection
-EndGlobal
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int arr[10] = {0};
+	int i = 0;
+	for (i = 0;i < 10;i++)
+	{
+		scanf("%d", &arr = [i]);
+	}
+	int max=arr[0];
+	for (i = 1; i < 10; i++)
+	if (arr=[i]>max)
+	{
+		max = arr[i];
+	}
+	printf("\nmax=%d\n", max);
+
+	return 0;
+}
+
+#include <stdio.h>
+#define MAX = 10000;
+int main() 
+{
+	printf("%d\n", MAX);
+	return 0;
+}
+
+#include<stdio.h>
+enum Sex
+{
+	MALE = 3
+};
+int main() {
+	enum Sex s = MALE;
+	printf("%d\n", MALE);
+	return 0;
+}
+
+int main() {
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//char ch[5] = { 'a','b','c' };
+	int i = 0;
+	while (i < 10)
+	{
+		printf("%d", arr[i]);
+		i++;
+	}
+	return 0;
+}
+
+int main() 
+{
+	int a = 2;
+	int b = a << 1;
+	printf("%d\n", b);
+
+	return 0;
+}
+
+int main()
+{
+	int a = 2;
+	a += 5;
+
+	a = 5;
+	a %= 3;
+	printf("%d", a);
+
+	return 0;
+}
+
+int main()
+{
+	int a = 0;
+	printf("%d\n", !a);
+	return 0;
+}
+
+int main()
+{
+	int a = 10;
+	printf("%d\n", sizeof(a));
+	printf("%d\n", sizeof(int));
+	return 0;
+}
+
+int main()
+{
+	int arr[10] = { 0 };
+	printf("%d\n", sizeof(arr));
+	printf("%d\n", sizeof(arr[0]));
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	printf("%d\n", sz);
+	return 0;
+}
+
+
+
+	
