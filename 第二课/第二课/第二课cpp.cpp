@@ -1,0 +1,101 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int arr[10] = {0};
+	int i = 0;
+	for (i = 0;i < 10;i++)
+	{
+		scanf("%d", &arr = [i]);
+	}
+	int max=arr[0];
+	for (i = 1; i < 10; i++)
+	if (arr=[i]>max)
+	{
+		max = arr[i];
+	}
+	printf("\nmax=%d\n", max);
+
+	return 0;
+}
+
+#include <stdio.h>
+#define MAX = 10000;
+int main() 
+{
+	printf("%d\n", MAX);
+	return 0;
+}
+
+#include<stdio.h>
+enum Sex
+{
+	MALE = 3
+};
+int main() {
+	enum Sex s = MALE;
+	printf("%d\n", MALE);
+	return 0;
+}
+
+int main() {
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	//char ch[5] = { 'a','b','c' };
+	int i = 0;
+	while (i < 10)
+	{
+		printf("%d", arr[i]);
+		i++;
+	}
+	return 0;
+}
+
+int main() 
+{
+	int a = 2;
+	int b = a << 1;
+	printf("%d\n", b);
+
+	return 0;
+}
+
+int main()
+{
+	int a = 2;
+	a += 5;
+
+	a = 5;
+	a %= 3;
+	printf("%d", a);
+
+	return 0;
+}
+
+int main()
+{
+	int a = 0;
+	printf("%d\n", !a);
+	return 0;
+}
+
+int main()
+{
+	int a = 10;
+	printf("%d\n", sizeof(a));
+	printf("%d\n", sizeof(int));
+	return 0;
+}
+
+int main()
+{
+	int arr[10] = { 0 };
+	printf("%d\n", sizeof(arr));
+	printf("%d\n", sizeof(arr[0]));
+	int sz = sizeof(arr) / sizeof(arr[0]);
+	printf("%d\n", sz);
+	return 0;
+}
+
+
+
+	
