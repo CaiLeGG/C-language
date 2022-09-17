@@ -1,0 +1,9 @@
+﻿  05.c
+D:\新建文件夹\C语言 01\05\05\05.c(246,16): warning C4013: “rand”未定义；假设外部返回 int
+D:\新建文件夹\C语言 01\05\05\05.c(273,7): warning C4013: “srand”未定义；假设外部返回 int
+D:\新建文件夹\C语言 01\05\05\05.c(273,26): warning C4013: “time”未定义；假设外部返回 int
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  05.vcxproj -> D:\新建文件夹\C语言 01\05\x64\Release\05.exe
